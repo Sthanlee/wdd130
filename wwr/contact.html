@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="Contact White Water Rafting Adventures for general inquiries, reservation questions, or website suggestions. We are happy to hear from you!">
+    <meta name="author" content="Stanley Ebuka Udenwa">
+    <title>Contact Us - White Water Rafting Adventures</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="images/logo.png" alt="White Water Rafting Adventures Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <div class="hero">
+            <img src="images/hero-rafting.jpg" alt="People enjoying White water rafting adventure">
+            <h1>Contact Us</h1>
+        </div>
+
+        <!-- Company Info + Map Section -->
+        <section class="contact-info">
+            <h2>Find Us</h2>
+            <div class="contact-info-grid">
+
+                <div class="company-details">
+                    <h3>Company Information</h3>
+                    <address>
+                        <p>📍 123 River Rapids Road<br>Adventure City, CA 90210</p>
+                        <p>📞 <a href="tel:+2349038435425">(903) 843-5425</a></p>
+                        <p>📞 Toll Free: <a href="tel:+2349038435425">(903) 843-5425</a></p>
+                        <p>✉️ <a
+                              href="mailto:info@whitewaterrafting.com">info@whitewaterrafting.com</a>
+                        </p>
+                    </address>
+                </div>
+
+                <div class="map-container">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0!2d-122.4!3d37.7!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDQyJzAwLjAiTiAxMjLCsDI0JzAwLjAiVw!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus"
+                      width="100%" height="300" allowfullscreen="" loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"
+                      title="White Water Rafting Adventures Location Map">
+                    </iframe>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Employee Profiles Section -->
+        <section class="employees">
+            <h2>Meet Our Team</h2>
+            <div class="employee-gallery">
+
+                <figure>
+                    <img src="images/employee1.jpg" alt="Edgar Rodrigo - Head River Guide">
+                    <figcaption>Edgar Rodrigo<br><span class="employee-title">Head River
+                            Guide</span>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee2.jpg" alt="Sarah Adeyemi - Safety Officer">
+                    <figcaption>Sarah Adeyemi<br><span class="employee-title">Safety Officer</span>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee3.jpg" alt="Mike Johnson - Trip Coordinator">
+                    <figcaption>Mike Johnson<br><span class="employee-title">Trip Coordinator</span>
+                    </figcaption>
+                </figure>
+
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="contact-form-section">
+            <h2>Send Us a Message</h2>
+
+            <form method="get"
+              action="https://byui-cse.github.io/wdd130-ww-course/week05/form-response.html">
+
+                <!-- Name -->
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name"
+                      required>
+                </div>
+
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="email">Your Email Address:</label>
+                    <input type="email" id="email" name="email"
+                      placeholder="Enter your email address" required>
+                </div>
+
+                <!-- Purpose - Radio Buttons -->
+                <fieldset class="form-group">
+                    <legend>Purpose of Your Message:</legend>
+
+                    <div class="radio-group">
+                        <input type="radio" id="general" name="purpose" value="general" required>
+                        <label for="general">General Inquiry</label>
+                    </div>
+
+                    <div class="radio-group">
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        <label for="reservation">Reservation Question</label>
+                    </div>
+
+                    <div class="radio-group">
+                        <input type="radio" id="website" name="purpose" value="website">
+                        <label for="website">Website Suggestion</label>
+                    </div>
+
+                </fieldset>
+
+                <!-- Message -->
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="6"
+                      placeholder="Type your message here..." required></textarea>
+                </div>
+
+                <!-- Newsletter Checkbox -->
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="submit-btn">Send My Message</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 White Water Rafting Adventures | Stanley Ebuka Udenwa</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://linkedin.com" target="_blank">
+                <img src="images/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
